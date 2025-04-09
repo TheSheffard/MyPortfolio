@@ -100,13 +100,13 @@ export const MyWork = [
     {
         projectName: "Ella's Collection",
         projectType: "Full stack.  E-commerce ",
-        projectDescription: "Ella's Collection is an E-Commerce web site aimed at meeting peoples fashion needs, bringing the stor to the people.",
+        projectDescription: "Ella's Collection,  an E-Commerce platform  aimed at meeting peoples fashion needs, ensuring  secure and safe payment for users.",
         projectImage: "/Ella'sShop.png",
         projectLink: ""
     },
     {
         projectName: "LACE 2025",
-        projectType: "Full stack. WEBSITE",
+        projectType: "Full stack. Website",
         projectDescription: "Lace 'Largest African Conference 2025' hosted by preneursafricaintl, a program aimed at reaching out to young entrepreneur across africa.",
         projectImage: "/Work1.png",
         projectLink: "https://preneursafricaintl.com"

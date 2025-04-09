@@ -13,7 +13,7 @@ export const NavHelp = () => {
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }
-    setMenuOpen(false); // Close menu on mobile after click
+    setMenuOpen(false); 
   };
 
   useEffect(() => {
@@ -72,7 +72,7 @@ export const NavHelp = () => {
           />
         ) : (
           <FaBars
-            className="text-white"
+            className="text-black"
             size={20}
             onClick={() => setMenuOpen(true)}
           />

@@ -22,7 +22,7 @@ export const NewHeroSection = () => {
             Skilled at building fast, responsive, and scalable web applications. From frontend interfaces to backend APIs.
           </p>
           <p className="text-gray-700 text-[13px] md:mt-4 md:text-[18px]">
-            I build clean and efficient web apps that not only look great but also perform flawlessly. From crafting intuitive UIs to engineering powerful backend systems — I'm the bridge between design and function.
+            I build <b> clean and efficient</b>  web apps that not only look great but also perform flawlessly. From crafting intuitive UIs to engineering powerful backend systems — I'm the bridge between design and function.
           </p>
         </div>
       </div>
@@ -30,38 +30,11 @@ export const NewHeroSection = () => {
   );
 };
 
-// export const NewHeroSection = () => {
-//   return (
-//     <div className="h-[100vh] md:h-[90vh] w-full grid grid-cols-1 relative gap-10 overflow-hidden" id="About">
-//       {/* Left Column / Brand */}
-//       <div className="bg-white h-full w-full flex flex-col items-start justify-end relative px-4 md:px-10">
-//         <p className="text-2xl font-semibold absolute bottom-0">Rich Dot Com</p>
-//       </div>
-
-//       {/* Hero Title */}
-//       <p className="text-[25px] md:text-[47px] px-4 md:pl-10 font-bold absolute top-[37%] md:top-[36%]">
-//         <span className="TheYellow">Full Stack</span> Web Developer
-//       </p>
-
-//       {/* Description Section */}
-//       <div className="bg-gray-200 relative -z-10 h-full w-full">
-//         <div className="relative top-10 px-4 md:px-10 max-w-4xl">
-//           <p className="font-semibold text-lg">
-//             Skilled at building fast, responsive, and scalable web applications. From frontend interfaces to backend APIs.
-//           </p>
-//           <p className="text-gray-700 mt-4 text-md">
-//             I build clean and efficient web apps that not only look great but also perform flawlessly. From crafting intuitive UIs to engineering powerful backend systems — I'm the bridge between design and function.
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 
 
 export const Skills = () => {
   return (
-    <div className=" w-full border h-full px-4 md:px-10" id="Expertise">
+    <div className=" w-full  h-full px-4 md:px-10" id="Expertise">
       <p className="text-[25px]  font-bold flex flex-col md:flex-row md:items-center gap-2 py-10">
         Tech Stack <span className="h-[4px] w-[50px] border bg-black"></span>
       </p>
@@ -72,7 +45,7 @@ export const Skills = () => {
             key={index}
             className="flex flex-row flex-wrap   gap-2 md:gap-5 md:items-end"
           >
-            <p className="text-[22px] font-semibold">{el.name}-</p>
+            <p className="text-[22px] text-teal-600 font-semibold">{el.name}: </p>
 
             {el.subname.map((item, i) => (
               <span
