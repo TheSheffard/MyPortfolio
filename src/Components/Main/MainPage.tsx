@@ -1,11 +1,11 @@
 import { NavBar } from '../NavComp/NavBar'
-import { ContactForm, NewHeroSection, Project, Skills } from './Hero'
+import { ContactForm,  Hero,   Project, Skills,  } from './Hero'
 
 export const MainPage = () => {
   return (
     <div>
       <NavBar />
-      <NewHeroSection />
+      <Hero />
       <Skills/>
       <Project/>
       <ContactForm/>

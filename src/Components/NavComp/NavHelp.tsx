@@ -66,7 +66,7 @@ export const NavHelp = () => {
       <div className="md:hidden">
         {menuOpen ? (
           <FaX
-            className="text-white"
+            className="text-black"
             size={20}
             onClick={() => setMenuOpen(false)}
           />
