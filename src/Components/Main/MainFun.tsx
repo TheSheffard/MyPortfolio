@@ -1,4 +1,4 @@
-import { BiLogoBootstrap, BiLogoFlask, BiLogoJava, BiLogoJavascript, BiLogoMongodb, BiLogoNodejs, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
+import { BiLogoBootstrap, BiLogoFlask, BiLogoJava, BiLogoJavascript, BiLogoMongodb,  BiLogoReact, BiLogoRedux, BiLogoSpringBoot, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { BsAndroid, BsCloud, BsGithub } from "react-icons/bs";
 
 export const MySkills = [
@@ -7,52 +7,47 @@ export const MySkills = [
         subname: [
             {
                 subname1: "React.js",
-                icon: <BiLogoReact size={20} />,
+                icon: <BiLogoReact size={25} />,
                 color: "blue"
             },
             {
                 subname1: "TypeScript",
-                icon: <BiLogoTypescript size={20} />,
+                icon: <BiLogoTypescript size={25} />,
                 color: "blue"
 
             },
             {
                 subname1: "Tailwind",
-                icon: <BiLogoTailwindCss size={20} />,
+                icon: <BiLogoTailwindCss size={25} />,
                 color: "blue"
 
             },
             {
                 subname1: "Redux",
-                icon: <BiLogoRedux size={20} />,
+                icon: <BiLogoRedux size={25} />,
                 color: "red"
 
             },
             {
                 subname1: "Bootstrap",
-                icon: <BiLogoBootstrap size={20} />,
+                icon: <BiLogoBootstrap size={25} />,
                 color: "green"
 
             },
         ]
     },
     {
-        name: "Backend",
+        name: "Backend Framework",
         subname: [
             {
-                subname1: "Node.js",
-                icon: <BiLogoNodejs size={20} />,
-                color: "green"
-            },
-            {
                 subname1: "Express.js",
-                icon: <BiLogoJavascript size={20} />,
+                icon: <BiLogoJavascript size={25} />,
                 color: "red"
 
             },
             {
-                subname1: "Java",
-                icon: <BiLogoJava size={20} />,
+                subname1: "SpringBoot",
+                icon: <BiLogoSpringBoot size={25} />,
                 color: "red"
 
             }
@@ -65,6 +60,21 @@ export const MySkills = [
                 subname1: "MongoDb",
                 icon: <BiLogoMongodb size={20} />,
                 color: "green"
+            },
+        ]
+    },
+    {
+        name: "Language",
+        subname: [
+            {
+                subname1: "Java",
+                icon: <BiLogoJava size={20} />,
+                color: "red"
+            },
+            {
+                subname1: "JavaScript",
+                icon: <BiLogoJavascript size={20} />,
+                color: "yellow"
             },
         ]
     },
@@ -101,7 +111,7 @@ export const MyWork = [
         projectName: "Ella's Collection",
         projectType: "Full stack.  E-commerce ",
         projectDescription: "Ella's Collection,  an E-Commerce platform  aimed at meeting peoples fashion needs, ensuring  secure and safe payment for users.",
-        projectImage: "/Ella'sShop.png",
+        projectImage: "/E_commerce.png",
         projectLink: ""
     },
     {

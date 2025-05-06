@@ -18,10 +18,7 @@ export const Hero = () => {
       icon: <FaWhatsapp className="cursor-pointer hover:text-[#25D366]" />,
       link: "",
     },
-    {
-      icon: <FaInstagram className="cursor-pointer hover:text-[#E1306C]" />,
-      link: "",
-    },
+
   ];
 
   return (
@@ -98,7 +95,7 @@ export const Skills = () => {
                 className="text-lg flex items-center font-semibold gap-2"
               >
                 {" "}
-                <i className={`text-${item.color}-500 `}>{item.icon}</i>{" "}
+                <i className={`text-${item.color}-300 `}>{item.icon}</i>{" "}
                 {item.subname1}
               </span>
             ))}
@@ -116,7 +113,7 @@ export const Project = () => {
       {MyWork.map((el, i) => (
         <div
           key={i}
-          className="w-full flex flex-col-reverse md:flex-row gap-5 my-10 items-center justify-between h-[80vh]"
+          className="w-full flex flex-col-reverse md:flex-row gap-5 my-10 items-center justify-between shadow-lg rounded-2xl p-4 overflow-hidden b md:px-6 md:h-[80vh]"
         >
           <div className="flex flex-col gap-3 md:w-[40%]">
             <p className="text-[24px] font-bold">{el.projectName}</p>
@@ -137,7 +134,7 @@ export const Project = () => {
             )}
           </div>
 
-          <div className="md:w-[50%] w-full h-[50vh] rounded-lg overflow-hidden border">
+          <div className="md:w-[50%] w-full h-[55vh] rounded-lg overflow-hidden ">
             <img
               src={el.projectImage}
               alt={el.projectName}
@@ -163,11 +160,7 @@ export const ContactForm = () => {
     {
       icon: <FaWhatsapp className="cursor-pointer hover:text-[#25D366]" />,
       link: "",
-    },
-    {
-      icon: <FaInstagram className="cursor-pointer hover:text-[#E1306C]" />,
-      link: "",
-    },
+    }
   ];
 
   return (
