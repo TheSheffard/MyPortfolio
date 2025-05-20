@@ -1,12 +1,18 @@
-import { BiLogoBootstrap, BiLogoFlask, BiLogoJava, BiLogoJavascript, BiLogoMongodb,  BiLogoReact, BiLogoRedux, BiLogoSpringBoot, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
+import { BiLogoBootstrap, BiLogoFlask, BiLogoJava, BiLogoJavascript, BiLogoMongodb, BiLogoReact, BiLogoRedux, BiLogoSpringBoot, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { BsAndroid, BsCloud, BsGithub } from "react-icons/bs";
+import { RiNextjsLine } from "react-icons/ri";
 
 export const MySkills = [
     {
         name: "Frontend",
         subname: [
             {
-                subname1: "React.js",
+                subname1: "Next js",
+                icon: <RiNextjsLine size={25} />,
+                color: "black"
+            },
+            {
+                subname1: "React js",
                 icon: <BiLogoReact size={25} />,
                 color: "blue"
             },
@@ -31,7 +37,7 @@ export const MySkills = [
             {
                 subname1: "Bootstrap",
                 icon: <BiLogoBootstrap size={25} />,
-                color: "green"
+                color: "blue"
 
             },
         ]
@@ -48,7 +54,7 @@ export const MySkills = [
             {
                 subname1: "SpringBoot",
                 icon: <BiLogoSpringBoot size={25} />,
-                color: "red"
+                color: "green"
 
             }
         ]
@@ -99,7 +105,7 @@ export const MySkills = [
             {
                 subname1: "Postman",
                 icon: <BiLogoFlask size={20} />,
-                color: "yellow"
+                color: "red"
             },
 
         ]
@@ -117,7 +123,7 @@ export const MyWork = [
     {
         projectName: "LACE 2025",
         projectType: "Full stack. Website",
-        projectDescription: "Lace 'Largest African Conference 2025' hosted by preneursafricaintl, a program aimed at reaching out to young entrepreneur across africa.",
+        projectDescription: "LACE 2025, hosted by preneursafricaintl, was the largest African conference of the year. The conference website played a crucial role in enhancing participant experience by enabling seamless event registration and offering detailed information on the agenda, key speakers, and sponsors. These features improved user engagement and streamlined the registration process, significantly contributing to the event's success.",
         projectImage: "/Work1.png",
         projectLink: "https://preneursafricaintl.com"
     },

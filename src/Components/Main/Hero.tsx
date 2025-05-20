@@ -43,10 +43,15 @@ export const Hero = () => {
 
         {/* RICH.COM text */}
         <div className=" absolute  top-[50%] left-[50%] md:left-10 transform -translate-y-1/2 -translate-x-1/2 md:translate-x-10 z-20  ">
-          <div className="flex flex-col md:flex-row md:items-center text-center text-[40px] te font-extrabold leading-none md:tracking-wide text-yellow-600">
+          <div className="flex md:hidden flex-col md:flex-row md:items-center text-center text-[40px] te font-extrabold leading-none md:tracking-wide text-yellow-600">
             {brand.map((char, index) => (
               <span key={index}>{char}</span>
             ))}
+          </div>
+        </div>
+        <div className=" absolute  top-[50%] left-[50%] md:left-10 transform -translate-y-1/2 -translate-x-1/2 md:translate-x-10 z-20  ">
+          <div className=" hidden md:flex  flex-col md:flex-row md:items-center text-center text-[40px] te font-extrabold leading-none md:tracking-wide text-yellow-600">
+            <p>RICH DOT COM </p>
           </div>
         </div>
 
@@ -92,10 +97,10 @@ export const Skills = () => {
             {el.subname.map((item, i) => (
               <span
                 key={i}
-                className="text-lg flex items-center font-semibold gap-2"
+                className="text-[18px] md:text-[19px] flex items-center font-semibold gap-5"
               >
                 {" "}
-                <i className={`text-${item.color}-300 `}>{item.icon}</i>{" "}
+                <i className={`text-[${item.color}] `}>{item.icon}</i>{" "}
                 {item.subname1}
               </span>
             ))}
@@ -113,7 +118,7 @@ export const Project = () => {
       {MyWork.map((el, i) => (
         <div
           key={i}
-          className="w-full flex flex-col-reverse md:flex-row gap-5 my-10 items-center justify-between shadow-lg rounded-2xl p-4 overflow-hidden b md:px-6 md:h-[80vh]"
+          className="w-full flex flex-col-reverse md:flex-row gap-5 my-10 items-center justify-between shadow-2xl rounded-2xl p-4 overflow-hidden b md:px-6 md:h-[80vh]"
         >
           <div className="flex flex-col gap-3 md:w-[40%]">
             <p className="text-[24px] font-bold">{el.projectName}</p>
@@ -188,7 +193,7 @@ export const ContactForm = () => {
           <p className="font-medium mb-2">SOCIAL MEDIA</p>
           <div className="flex gap-4 text-2xl">
             {links.map((el, i) => (
-              <i key={i}>{el.icon}</i>
+              <i className="hover:-translate-y-1 duration-500" key={i}>{el.icon}</i>
             ))}
           </div>
         </div>
