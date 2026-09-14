@@ -25,7 +25,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4 ">
                     <p className="font-medium">Email</p>
-                    <p className="mt-1 flex flex-wrap">Emmanueltokyo24@gmail.com</p>
+                    <p className="mt-1 flex flex-wrap">Emmanuelenemaku60@gmail.com</p>
                   </div>
                 </div>
                 <a href="https://github.com/TheSheffard" className="flex gap-3  w-fit items-center">

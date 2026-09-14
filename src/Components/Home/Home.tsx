@@ -25,7 +25,7 @@ const skillGroups = [
 const heroSocials = [
   { icon: FaGithub,   href: 'https://github.com/TheSheffard', label: 'GitHub' },
   { icon: FaLinkedin, href: 'https://www.linkedin.com/in/emmanuel-enemaku-b3893435a', label: 'LinkedIn' },
-  { icon: FaWhatsapp, href: 'https://wa.me/2340000000000', label: 'WhatsApp' },
+  { icon: FaWhatsapp, href: 'https://wa.me/8053048672', label: 'WhatsApp' },
 ];
 
 const heroStats = [
@@ -50,8 +50,8 @@ export function Navigation(){
       <button className="mobile-menu" aria-label="Toggle menu" onClick={()=>setOpen(!open)}>{open?<FaTimes/>:<FaBars/>}</button>
     </div>
     <div className="nav-right-pills">
-      <a className="call-pill" href="mailto:Emmanueltokyo24@gmail.com?subject=Project%20Enquiry">Book a 30 min call</a>
-      <a className="mail-pill" href="mailto:Emmanueltokyo24@gmail.com" aria-label="Email Emmanuel"><FaEnvelope/></a>
+      <a className="call-pill" href="mailto:Emmanuelenemaku60@gmail.com?subject=Project%20Enquiry">Book a 30 min call</a>
+      <a className="mail-pill" href="mailto:Emmanuelenemaku60@gmail.com" aria-label="Email Emmanuel"><FaEnvelope/></a>
     </div>
   </header>;
 }
@@ -69,7 +69,7 @@ export function ProjectGrid({limit}:{limit?:number}){
 }
 
 function Footer(){
-  return <footer className="reference-footer page-width"><div><p className="spaced-label">Socials</p><div className="footer-profile"><img src="/MyImage.png" alt=""/><div><a href="https://github.com/TheSheffard" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/emmanuel-enemaku-b3893435a" target="_blank" rel="noreferrer">LinkedIn</a><a href="mailto:Emmanueltokyo24@gmail.com">Email</a></div></div></div><div><p className="spaced-label">Links</p><Link to="/all-projects">All Projects</Link><a href="/#contact">Contact</a><a href="/#about">About</a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Emmanuel Enemaku</span><a href="#top">Back to top <FaArrowUp/></a></div></footer>;
+  return <footer className="reference-footer page-width"><div><p className="spaced-label">Socials</p><div className="footer-profile"><img src="/MyImage.png" alt=""/><div><a href="https://github.com/TheSheffard" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/emmanuel-enemaku-b3893435a" target="_blank" rel="noreferrer">LinkedIn</a><a href="mailto:Emmanuelenemaku60@gmail.com">Email</a></div></div></div><div><p className="spaced-label">Links</p><Link to="/all-projects">All Projects</Link><a href="/#contact">Contact</a><a href="/#about">About</a></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Emmanuel Enemaku</span><a href="#top">Back to top <FaArrowUp/></a></div></footer>;
 }
 
 export default function Home(){
@@ -185,7 +185,7 @@ export default function Home(){
 
     <section className="toolkit page-width" id="skills"><motion.div className="center-heading" {...reveal}><span className="section-pill">Toolkit</span><h2>Technologies I Use</h2></motion.div><div className="skill-table">{skillGroups.map((row,i)=><motion.div className="skill-line" {...reveal} key={row[0]}><span>0{i+1}</span><h3>{row[0]}</h3><p>{row[1]}</p></motion.div>)}</div></section>
 
-    <section className="contact-section page-width" id="contact"><motion.div className="center-heading" {...reveal}><span className="section-pill">Contact</span><h2>Got a project<br/>in mind?</h2></motion.div><form action={`mailto:Emmanueltokyo24@gmail.com`} method="post" encType="text/plain"><label>Name<input name="name" placeholder="Your name" required/></label><label>Email<input name="email" type="email" placeholder="you@example.com" required/></label><label>Project Information<textarea name="project" placeholder="Tell me about your next project" rows={5} required/></label><button type="submit">Submit <FaArrowRight/></button><small>I’ll respond as soon as possible.</small></form></section>
+    <section className="contact-section page-width" id="contact"><motion.div className="center-heading" {...reveal}><span className="section-pill">Contact</span><h2>Got a project<br/>in mind?</h2></motion.div><form action={`mailto:Emmanuelenemaku60@gmail.com`} method="post" encType="text/plain"><label>Name<input name="name" placeholder="Your name" required/></label><label>Email<input name="email" type="email" placeholder="you@example.com" required/></label><label>Project Information<textarea name="project" placeholder="Tell me about your next project" rows={5} required/></label><button type="submit">Submit <FaArrowRight/></button><small>I’ll respond as soon as possible.</small></form></section>
     <Footer/>
   </main>;
 }
